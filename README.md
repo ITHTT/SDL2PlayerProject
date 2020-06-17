@@ -1,0 +1,2 @@
+# SDL2PlayerProject
+SDL2和FFmpeg实现的简单视频播放器
