@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SDL2PlayerProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Code/CProject/SDL2PlayerProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2PlayerProject">
+				<Option output="D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/SDL2PlayerProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/CProject/SDL2PlayerProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Code/CProject/SDL2PlayerProject/FFmpeg/include"/>
+					<Add directory="D:/Code/CProject/SDL2PlayerProject/SDL2/include"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include-fixed"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 SDL2PlayerProject"/>
+					<CompileFile command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2PlayerProject/fast">
+				<Option output="D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/SDL2PlayerProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/CProject/SDL2PlayerProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Code/CProject/SDL2PlayerProject/FFmpeg/include"/>
+					<Add directory="D:/Code/CProject/SDL2PlayerProject/SDL2/include"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include-fixed"/>
+					<Add directory="D:/Tools/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 SDL2PlayerProject/fast"/>
+					<CompileFile command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Code/CProject/SDL2PlayerProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Code/CProject/SDL2PlayerProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CProject/SDL2PlayerProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Code/CProject/SDL2PlayerProject/main.c">
+			<Option target="SDL2PlayerProject"/>
+		</Unit>
+		<Unit filename="D:/Code/CProject/SDL2PlayerProject/player.c">
+			<Option target="SDL2PlayerProject"/>
+		</Unit>
+		<Unit filename="D:/Code/CProject/SDL2PlayerProject/player.h">
+			<Option target="SDL2PlayerProject"/>
+		</Unit>
+		<Unit filename="D:/Code/CProject/SDL2PlayerProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

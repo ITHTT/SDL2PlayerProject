@@ -1,0 +1,1 @@
+ -LD:/Code/CProject/SDL2PlayerProject/FFmpeg/lib  -LD:/Code/CProject/SDL2PlayerProject/SDL2/lib -lSDL2 -lSDL2main -lavformat-58 -lavcodec-58 -lavdevice-58 -lavfilter-7 -lavutil-56 -lpostproc-55 -lswresample-3 -lswscale-5 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
